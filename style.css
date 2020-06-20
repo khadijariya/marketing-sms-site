@@ -139,6 +139,41 @@ ul,li{
 	padding: 0px 6%;
 }
 /* about part end here */
-
+/* description part design start */
+#description-part {
+	background: #f9f9f9;
+	padding: 110px 0;
+}
+.description-content h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	font-size: 48px;
+	padding-bottom: 30px;
+}
+.description-content p {
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	line-height: 27px;
+	font-size: 15px;
+	padding-bottom: 42px;
+}
+.description-content a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #7f1a38;
+	border: 2px solid #7f1a38;
+	padding: 12px 48px;
+	border-radius: 20px;
+}
+.description-content a:hover{
+	background: #7f1a38;
+	color: #ffffff;
+}
+/* description part design end */
+/* discover part design start */
+#discover-part
+/* discover part design end */
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
