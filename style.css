@@ -1,33 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
-   
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
-a{
-    text-decoration: none;
+
+a {
+	text-decoration: none;
 }
-ul,li{
-    list-style: none;
+
+ul,
+li {
+	list-style: none;
 }
 /* basic css end here */
 /* header navbar design start from here */
-#header-nav{
-    padding: 15px 0;
+#header-nav {
+	padding: 15px 0;
 }
-.custom-menu{
-    position: relative;
+
+.custom-menu {
+	position: relative;
 }
-.custom-menu ul li a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #404040 !important;
-    text-transform: capitalize;
-    position: relative;
+
+.custom-menu ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #404040 !important;
+	text-transform: capitalize;
+	position: relative;
 }
+
 .custom-menu ul li a:hover::after {
 	position: absolute;
 	content: '';
@@ -37,10 +42,12 @@ ul,li{
 	left: 6%;
 	background: #404040;
 }
+
 .custom-menu ul li {
 	padding-right: 20px;
 	padding-top: 10px;
 }
+
 .btn-custom-head {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -52,10 +59,12 @@ ul,li{
 	margin-right: -70px;
 	margin-left: 25px;
 }
-.btn-custom-head:hover{
-    color: #ffffff;
-    background: #B02D54;
+
+.btn-custom-head:hover {
+	color: #ffffff;
+	background: #B02D54;
 }
+
 .custom-logo {
 	margin-left: -60px;
 }
@@ -68,36 +77,42 @@ ul,li{
 	background-position: center;
 	padding: 125px 0 90px 0;
 }
-.upper-banner-content h2{
-    font-family: 'Raleway', sans-serif;
-    font-size: 60px;
-    color: #ffffff;
+
+.upper-banner-content h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	color: #ffffff;
 }
-.upper-banner-content p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: italic;
-    color: #ffffff;
-    padding: 20px 0 40px 0;
+
+.upper-banner-content p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	color: #ffffff;
+	padding: 20px 0 40px 0;
 }
+
 /* banner-form-part design */
 .banner-form {
 	background: #3a1210;
 	padding: 1px 10px 15px 12px;
 	border-radius: 4px;
 }
+
 .form-group .form-control {
 	width: 36%;
 	border-radius: 0;
 	float: left;
 	overflow: hidden;
 }
-.form-group input{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin-right: 10px;
+
+.form-group input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-right: 10px;
 }
+
 .btn-custom-banner {
 	background: #ae2c52;
 	color: #ffffff;
@@ -105,25 +120,30 @@ ul,li{
 	padding: 4px 52px 3px 55px;
 	border-radius: 0;
 }
-.btn-custom-banner:hover{
-    color: #ffffff;
+
+.btn-custom-banner:hover {
+	color: #ffffff;
 }
+
 .lower-bann-content p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: #ffffff;
 	padding-top: 28px;
 }
+
 /* banner part design end here */
 /* about part start from here */
-#about-part{
-	padding: 65px 0;
+#about-part {
+	padding: 75px 0 70px 0;
 }
+
 .single-about-item i {
 	color: #444444;
-	font-size: 60px;
+	font-size: 65px;
 	padding-bottom: 35px;
 }
+
 .single-about-item h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -131,6 +151,7 @@ ul,li{
 	font-size: 24px;
 	padding-bottom: 10px;
 }
+
 .single-about-item p {
 	font-family: 'Open Sans', sans-serif;
 	color: #505050;
@@ -138,18 +159,21 @@ ul,li{
 	font-size: 14px;
 	padding: 0px 6%;
 }
+
 /* about part end here */
 /* description part design start */
 #description-part {
 	background: #f9f9f9;
 	padding: 110px 0;
 }
+
 .description-content h2 {
 	font-family: 'Open Sans', sans-serif;
 	color: #404040;
 	font-size: 48px;
 	padding-bottom: 30px;
 }
+
 .description-content p {
 	font-family: 'Open Sans', sans-serif;
 	color: #404040;
@@ -157,6 +181,7 @@ ul,li{
 	font-size: 15px;
 	padding-bottom: 42px;
 }
+
 .description-content a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -167,13 +192,81 @@ ul,li{
 	padding: 12px 48px;
 	border-radius: 20px;
 }
-.description-content a:hover{
+
+.description-content a:hover {
 	background: #7f1a38;
 	color: #ffffff;
 }
 /* description part design end */
 /* discover part design start */
-#discover-part
+#discover-part {
+	background: #32383d;
+	padding: 40px 0;
+}
+
+#discover-part h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	color: #fafafa;
+	padding-top: 5px;
+}
+
+.btn-custom-disco {
+	font-family: 'Open Sans', sans-serif;
+	color: #f6f6f6;
+	font-size: 15px;
+	border: 2px solid #f6f6f6;
+	padding: 9px 42px;
+	border-radius: 22px;
+	font-weight: 600;
+}
+
+.btn-custom-disco:hover {
+	background: #ffffff;
+	color: #32383d;
+	border: 2px solid #32383d;
+}
+
 /* discover part design end */
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
+/* testimonial slider part start from here */
+#testimonial-slider {
+	background: #09bbdb;
+	padding: 50px 0;
+}
+
+.slider-icon i {
+	font-size: 30px;
+	color: #117486;
+	padding-bottom: 40px;
+}
+
+.slider-content p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	color: #ffffff;
+	padding-bottom: 60px;
+	width: 94%;
+	margin: 0 auto;
+}
+
+.custom-indicator li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 2px solid #117486;
+}
+
+.custom-indicator li.active {
+	background: #117486;
+}
+
+/* testimonial slider part end here */
+/* footer part start from here*/
+#footer-part p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 45px 0 30px 0;
+}
+/* footer part end here*/
