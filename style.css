@@ -14,6 +14,107 @@ ul,li{
     list-style: none;
 }
 /* basic css end here */
+/* header navbar design start from here */
+#header-nav{
+    padding: 15px 0;
+}
+.custom-menu{
+    position: relative;
+}
+.custom-menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #404040 !important;
+    text-transform: capitalize;
+    position: relative;
+}
+.custom-menu ul li a:hover::after {
+	position: absolute;
+	content: '';
+	width: 88%;
+	height: 3px;
+	top: 82%;
+	left: 6%;
+	background: #404040;
+}
+.custom-menu ul li {
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.btn-custom-head {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	background: #7f1a38;
+	color: #ffffff;
+	border-radius: 25px;
+	padding: 9px 35px;
+	text-transform: capitalize;
+	margin-right: -70px;
+	margin-left: 25px;
+}
+.btn-custom-head:hover{
+    color: #ffffff;
+    background: #B02D54;
+}
+.custom-logo {
+	margin-left: -60px;
+}
+/* header navbar design end here */
+/* banner part design start from here */
+#banner-part {
+	background-image: url(img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 125px 0 90px 0;
+}
+.upper-banner-content h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+}
+.upper-banner-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    color: #ffffff;
+    padding: 20px 0 40px 0;
+}
+/* banner-form-part design */
+.banner-form {
+	background: #3a1210;
+	padding: 1px 10px 15px 12px;
+	border-radius: 4px;
+}
+.form-group .form-control {
+	width: 36%;
+	border-radius: 0;
+	float: left;
+	overflow: hidden;
+}
+.form-group input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.btn-custom-banner {
+	background: #ae2c52;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 4px 52px 3px 55px;
+	border-radius: 0;
+}
+.btn-custom-banner:hover{
+    color: #ffffff;
+}
+.lower-bann-content p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding-top: 28px;
+}
+/* banner part design end here */
 
 
 /* font-family: 'Open Sans', sans-serif;
